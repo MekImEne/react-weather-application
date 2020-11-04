@@ -1,0 +1,22 @@
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+.forecast-time {
+    width: 33%;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.active {
+    border-bottom: 3px solid #f2c82aff;
+    font-weight: 600;
+    color: #f2c82aff;
+}

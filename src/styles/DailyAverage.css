@@ -1,0 +1,40 @@
+.daily-wrapper {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0095fcff;
+    color: #fff;
+    font-weight: 500;
+}
+
+.daily-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-date {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.daily-descr {
+    margin-bottom: 7px;
+}
+
+.daily-additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.daily-descr {
+    text-transform: capitalize;
+}
+
+.daily-humidity {
+    margin: 0 8px 8px 0;
+}

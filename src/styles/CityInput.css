@@ -1,0 +1,24 @@
+.search-form {
+    width: 99%;
+    margin-top: 30px;
+}
+.city, .search-btn {
+    height: 46px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+.city {
+    border-radius: 18px 0 0 18px;
+    width: calc(100% - 60px);
+}
+
+.search-btn {
+    border-radius: 0 18px 18px 0;
+    background-color: #fff;
+    transform: translateX(-2px);
+    width: 60px;
+}
